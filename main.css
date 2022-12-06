@@ -1,0 +1,46 @@
+*{
+  margin: 0%;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  
+}
+footer ul{
+  display: flex;
+}
+footer ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li img{
+  width: 3rem;
+  height: 3rem;
+  margin: 30px;
+}
+
+  @media screen and (max-width: 770px){
+    #cards{
+      width: 70%;
+      justify-content: center;
+      
+    }
+    .iframe{
+      width: 75%;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 586px){
+    #cards{
+      width: 75%;
+      justify-content: center; 
+      
+    }
+    footer ul li img{
+      width: 2rem;
+      height: 2rem;
+      margin: 20px;
+  
+  }
+}
